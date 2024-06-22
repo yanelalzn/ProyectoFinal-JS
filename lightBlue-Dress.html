@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LightBlue Dress</title>
+</head>
+<body>
+    <div class="container-cata">
+        <header>
+            <div class="up">
+                <p>¡Alerta Amistosa! Las fechas de entrega no están garantizadas debido a los continuos retrasos del transportista. ¡Los amamos y gracias por su paciencia!</p>
+            </div>
+            <div class="izquierda">
+                <div class="img-logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="img/logo1.jpg" alt="">
+                    </a>
+                </div>
+                <nav>
+                    <div class="sicel">
+                        <img class="menu-logo" src="images/menu.png" alt="" id="icono">
+                    </div>
+                    <ul class="menu" id="menu-selec">
+                        <li><a href="index.html">Nuevo</a></li>
+                        <li><a style="color: darkgreen; font-weight: 400;" href="#">Mujer</a></li>
+                        <li><a href="#">Hombre</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li class="sobre-nosotros"><a href="#">Sobre Nosotros</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="derecha">
+                <ul>
+                    <li>
+                        <img src="img/lupa.png" alt="lupa">
+                        <a href="#">Buscar</a>
+                    </li>
+                    <li>
+                        <img src="img/cara-feliz.png" alt="">
+                        <a href="login.html">Salir</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary-outline mr-sm-2" href="###">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            Carrito
+                        </a> 
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="row">
+            <div class="cata-photo col col-12 col-sm-12 col-md-8 col-lg-7">
+                <img src="https://ih1.redbubble.net/image.2141290934.1326/aldr,x1440,front-c,168,326,600,600-bg,f8f8f8.jpg" alt="" width="90%" height="80%">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-5">
+                <div class="row">
+                    <div class="col col-12">
+                        <h2>Vestido Corto clasico</h2>
+                    </div>
+                    <div class="col col-12">
+                        <h3>PEN 80.00</h3>
+                    </div>
+                    <div class="col col-12">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet repudiandae nisi, incidunt tempore reiciendis, minus quam aut eaque sed, ut officiis. Libero placeat assumenda obcaecati, magnam minima dolor suscipit eius.</p>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                        <div class="form-group">
+                            <select id="inputState" class="form-control">
+                                <option value="" selected>Tallas</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                        <input type="number" class="form-control" id="cantidad" value="1" required>
+                    </div>
+                    <div class="col col-12 mt-5">
+                        <a href="#" class="btn btn-lg btn-block btn-button" data-toggle="modal" data-target="#carritoModal" >Añadir al carrito</a>
+                     </div>
+
+                     <!-- Modal -->
+                  <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                       <div class="modal-header">
+                          <h5 class="modal-title" id="carritoModalLabel">Tu producto se agregó al carrito</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                          </button>
+                       </div>
+                       <div class="modal-body">
+                          <div class="media">
+                             <img src="https://ih1.redbubble.net/image.2141290934.1326/aldr,x1440,front-c,168,326,600,600-bg,f8f8f8.jpg" class="align-self-start mr-3" alt="Polo tipo cuello" width="100px" height="auto">
+                             <div class="media-body">
+                               <h5 class="mt-0">Vestido Corto clasico</h5>
+                               <p>Talla: <span>S</span></p>
+                               <p>Cantidad: <span>1</span></p>
+                               <p>Precio por unidad</p>
+                               <p style="font-size: 15px;">
+                                <del>PEN 100.00</del>
+                               </p>
+                               <p class="font-weight-bold text-success" style="font-size: 25px;">PEN 80.00</p>
+                             </div>
+                           </div>
+                       </div>
+                       <div class="modal-footer">
+                          <a href="carrito.html" type="button" class="btn btn-button btn-block">Ir al carrito</a>
+                          <a href="index.html" type="button" class="btn btn-block btn-outline-secondary">Seguir comprando</a>
+                       </div>
+                    </div>
+                    </div>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
