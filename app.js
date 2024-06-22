@@ -1,6 +1,6 @@
 const productos = [
     {
-    nombre: 'Light Blue Dress',
+    nombre: 'Clasic Short Dress',
     precioant: 'PEN 100.00',
     precio: 'PEN 80.00',
     imagen: 'https://ih1.redbubble.net/image.2141290934.1326/aldr,x1440,front-c,168,326,600,600-bg,f8f8f8.jpg'
@@ -18,21 +18,21 @@ const productos = [
     imagen: 'https://i.pinimg.com/564x/af/fc/30/affc300c3172826a5fce7cecc7bfe018.jpg'
     },
     {
-    nombre: 'Producto 4',
+    nombre: 'Long Red Dress',
     precioant: 'PEN 500.00',
-    precio: 'PEN 480.00',
+    precio: 'PEN 300.00',
     imagen: 'https://i.pinimg.com/564x/b9/ae/3c/b9ae3c4dbc57e2b8ff85f98aeb1e8e9e.jpg'
     },
     {
-    nombre: 'Producto 5',
-    precioant: 'PEN 500.00',
-    precio: 'PEN 480.00',
+    nombre: 'Long Black Dress',
+    precioant: 'PEN 400.00',
+    precio: 'PEN 320.00',
     imagen: 'https://i.pinimg.com/564x/b2/82/7e/b2827eaf1cd3308389d4909bbcb76f01.jpg'
     },
     {
-    nombre: 'Producto 6',
-    precioant: 'PEN 500.00',
-    precio: 'PEN 480.00',
+    nombre: 'Long Blue Dress',
+    precioant: 'PEN 300.00',
+    precio: 'PEN 280.00',
     imagen: 'https://i.pinimg.com/564x/55/a0/9d/55a09d5ff846a69f97b89043b515ab97.jpg'
     }
     ];
